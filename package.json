@@ -1,0 +1,19 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "main": "index.js",
+  "repository": "https://github.com/sigirace/gulp.git",
+  "author": "SIGIRACE <chickang9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "gulp": "^5.0.0"
+  }
+}
